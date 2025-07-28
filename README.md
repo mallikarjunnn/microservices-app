@@ -34,8 +34,19 @@ microservices-app/
 ```bash
 # Build and start the containers
 docker-compose up --build
+```
+### Run Locally (without Docker)
+
+- Navigate to each microservice folder and install dependencies:
+```bash
+cd auth-service
+npm install
+node index.js
+```
+-Open frontend/index.html in your browser.
 
 
 ---
 
 Let me know if you'd like to customize any section or add deployment instructions. ​:contentReference[oaicite:0]{index=0}​
+
