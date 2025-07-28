@@ -35,5 +35,5 @@ node index.js
 
 ---
 
-Let me know if you'd like to customize any section or add deployment instructions. ​:contentReference[oaicite:0]{index=0}​
+Let me know if you'd like me to add badges, Docker commands, or more usage examples.
 
