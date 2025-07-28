@@ -2,19 +2,6 @@
 
 This project demonstrates a simple microservices-based architecture using Node.js, Docker, and a minimal front-end. It showcases modular service separation, containerization, and orchestration using `docker-compose`.
 
-## Project Structure
-
-microservices-app/
-├── auth-service/ # Handles user authentication
-│ ├── Dockerfile
-│ └── index.js
-├── frontend/ # Simple front-end interface
-│ └── index.html
-├── docker-compose.yml # Orchestration file for all services
-├── package.json
-├── package-lock.json
-
-
 ## Features
 
 - **Authentication Microservice**: A basic Node.js service for handling login/signup operations.
@@ -43,7 +30,7 @@ cd auth-service
 npm install
 node index.js
 ```
--Open frontend/index.html in your browser.
+- Open frontend/index.html in your browser.
 
 
 ---
